@@ -14,7 +14,7 @@ const { readdir, unlink, access, constants } = require("fs");
 
 const transporter = nodemailer.createTransport(sendGridTransport({
   auth: {
-    api_user: "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"
+    api_user: process.env.SEND_GRID_API_KEY 
   }
 }));
 
