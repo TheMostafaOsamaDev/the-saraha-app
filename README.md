@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Saraha App</title>
 </head>
 <body>
   <h1>Saraha App</h1>
