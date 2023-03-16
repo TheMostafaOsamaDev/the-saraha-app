@@ -22,7 +22,7 @@ app.use(express.static(join(__dirname, "views", "public")));
 app.use("/images", express.static(join(__dirname, "util", "images")));
 
 // Sessions
-const MONGO_URI = `mongodb+srv://mostafa:mostafa1952002@cluster0.dxik9mi.mongodb.net/saraha`;
+const MONGO_URI = process.env.MONGO_URI;
 
 const session = require("express-session");
 const { default: mongoose } = require("mongoose");
