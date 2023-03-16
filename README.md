@@ -37,7 +37,5 @@ npm install</code></pre>
   <h2>Contributing</h2>
   <p>Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any questions or suggestions.</p>
 
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 </body>
 </html>
